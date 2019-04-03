@@ -13,7 +13,7 @@ public class DemoController {
 	
 	@GetMapping("person/{id}")
 	public Person getPerson(@PathVariable Long id) {
-		return new Person("Person " + id, "51 9 9101 1255 - " + new Date().toString());
+		return new Person("Person " + id, "51 9 9101 1255 - " + new Date().toString() + " bla");
 	}
 	
 	@GetMapping("person")
